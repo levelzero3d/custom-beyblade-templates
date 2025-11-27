@@ -1,0 +1,20 @@
+body{
+	background:linear-gradient(to right, red, rgb(255,0,128));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 50px;
+}
+#title{
+	font-size: 72px
+}
+.d1{
+	color:white;
+	font-family: "Teachers", sans-serif;
+	a{
+		color:white;
+		text-decoration: none;
+		border-style:solid;
+		border-radius: 7px;
+		padding: 5px;
+	}
+}
