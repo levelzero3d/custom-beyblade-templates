@@ -19,7 +19,11 @@ body{
 		text-decoration: none;
 		border-style:solid;
 		border-radius: 30px;
-		border-color: darkred;
+		border-color: rgb(195, 17, 106);
 		padding: 10px;
+	}
+	a:hover{
+		color: rgb(195,17,106);
+		border-color: white;
 	}
 }
