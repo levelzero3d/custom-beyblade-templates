@@ -12,14 +12,14 @@ body{
 	font-family: "Teachers", sans-serif;
 	a{
 		color:white;
-		background: linear-gradient(to right, purple, red);
+		background: linear-gradient(to right, crimson, rgb(255, 108, 181));
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		line-height: 50px;
 		text-decoration: none;
 		border-style:solid;
 		border-radius: 30px;
-		border-color: rgb(255,0,128);
+		border-color: darkred;
 		padding: 10px;
 	}
 }
