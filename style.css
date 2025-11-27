@@ -1,11 +1,16 @@
 body{
 	background:linear-gradient(to right, red, rgb(255,0,128));
+	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 50px;
 }
 #title{
-	font-size: 72px
+	font-size: 72px;
+	text-align: center;
+	#sub{
+		font-size: 25px;
+	}
 }
 .d1{
 	color:white;
