@@ -1,34 +1,55 @@
+/* GENERAL */
+html{
+	color: white;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 400;
+}
 body{
 	background:linear-gradient(to right, red, rgb(255,0,128));
-	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 50px;
+	font-weight: 400;
 }
-#title{
-	font-size: 72px;
+a{
+	color: white;
+	text-decoration: none;
+	padding: 8px;
+}
+a:hover{
+	color: purple;
+}
+footer{
+	border: none;
+	background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+	padding: 20px;
+	margin-left: 10px;
+}
+#logo{
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -15px;
+}
+#start{
+	border-style:solid;
+	border-radius: 30px;
+	padding: 10px;
+	border-width: 2px;
+	
 	text-align: center;
-	#sub{
-		font-size: 25px;
-	}
-}
-.d1{
-	color:white;
-	font-family: "Teachers", sans-serif;
+	letter-spacing: 2px;
+	font-weight: 400;
 	a{
-		color:white;
-		background: linear-gradient(to right, crimson, rgb(255, 108, 181));
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		line-height: 50px;
-		text-decoration: none;
-		border-style:solid;
-		border-radius: 30px;
-		border-color: rgb(195, 17, 106);
-		padding: 10px;
+		position: relative;
+		top: 3px;
 	}
-	a:hover{
-		color: rgb(195,17,106);
-		border-color: white;
-	}
+	
+}
+/* TEMPLATES PAGE */
+.file{
+	font-size: 20px;
 }
